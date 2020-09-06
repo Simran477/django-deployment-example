@@ -6,4 +6,4 @@ def cut(value,arg):
     this cuts all values of "arg" from the string.
     """
     return value.replace(arg,'')
-regiter.filter('cut',cut)
+register.filter('cut',cut)
